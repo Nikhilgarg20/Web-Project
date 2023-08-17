@@ -229,6 +229,13 @@ header {
 	object-fit: cover;
 }
 
+.card :hover {
+	transform: scale(1.10);
+	transition: 0.5s;
+	/*to make it smooth*/
+	filter: drop-shadow(0 0 10px #333);
+}
+
 .download-button {
 	height: 40px;
 	width: 40px;
