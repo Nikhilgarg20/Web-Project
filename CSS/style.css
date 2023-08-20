@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 	color: white;
+	transition: smooth;
 }
 
 .navbar {
@@ -329,3 +330,16 @@ header {
 	color: white;
 	margin-bottom: 0px;
 }
+
+/* Media query for tablet screens */
+@media (max-width: 768px) {
+	.gallery {
+		justify-content: center;
+	}
+
+	.card {
+		width: 48%;
+		/* Display two cards per row */
+	}
+}
+
